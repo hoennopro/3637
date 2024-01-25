@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Đặt hàng online</h1>
+    <form action="index.php" method="post">
+      <div class="thongtinnguoimua">
+        <h2>Thông tin người mua</h2>
+        <input type="text" name="hotenmua" placeholder="Họ và tên">
+        <input type="email" name="emailmua" placeholder="Email">
+        <input type="text" name="sodienthoaimua" placeholder="Số điện thoại">
+        <input type="text" name="diachimua" placeholder="Địa chỉ">
+      </div>
+      <div class="thongtinnguoinhan">
+        <h2>Thông tin người nhận</h2>
+        <input type="checkbox" name="languoinhan" id="languoinhan">
+        <label for="languoinhan">Tôi là người nhận</label>
+        <input type="text" name="hotennhan" placeholder="Họ và tên">
+        <input type="email" name="emailnhan" placeholder="Email">
+        <input type="text" name="sodienthoai" placeholder="Số điện thoại">
+        <input type="text" name="diachinhan" placeholder="Địa chỉ">
+      </div>
+      <div class="phuongthucthanhtoan">
+        <h2>Phương thức thanh toán</h2>
+        <input type="radio" name="phuongthucthanhtoan" value="tiền mặt"> Tiền mặt
+        <input type="radio" name="phuongthucthanhtoan" value="chuyển khoản"> Chuyển khoản
+      </div>
+      <div class="ghichu">
+        <h2>Ghi chú</h2>
+        <textarea name="ghichu" cols="30" rows="10"></textarea>
+      </div>
+      <div class="nut">
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Nhập lại">
+      </div>
+    </form>
+  </div>
+</body>
+<script src="b8.js"></script>
+</html>
